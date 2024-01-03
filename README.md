@@ -46,41 +46,5 @@ To set up and run the Book Loan Management System:
 
 5. Explore the various forms and functionalities within the application.
 
-## Usage
-
-The Book Loan Management System is designed to streamline book-related operations within a library or book loan system. Below are key functionalities and how to use them:
-
-### Adding Authors, Categories, and Books
-
-1. **Authors:**
-   - Open the application and navigate to the "Author" form.
-   - Use the form to add new authors by providing their details such as first name, last name, email, contact number, address, date of birth, and nationality.
-
-2. **Book Categories:**
-   - Access the "BookCategory" form in the application.
-   - Add different categories of books by entering the category name and any other relevant information.
-
-3. **Books:**
-   - Navigate to the "Book" form within the application.
-   - Add books by specifying the title, author, category, publication date, ISBN, and other relevant details.
-
-### Managing Book Copies
-
-1. **BookCopy Form:**
-   - Open the "BookCopy" form to manage individual copies of books and their loan status.
-   - Add new copies, mark copies as borrowed or returned, and keep track of the availability of each book.
-
-2. **Loan Information:**
-   - Utilize the "BookCopy" form to view loan information associated with each copy, including borrower details, loan dates, and return status.
-     
-
-### Troubleshooting and Feedback
-
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/your-username/your-repository/issues) on GitHub. Your feedback is valuable for enhancing the functionality and usability of the Book Loan Management System.
-
----
-
-**Note:** Please make sure to replace `[Your Name]`, `[Contributor 1]`, and `[GitHub Link]` with the actual information for your project. Additionally, customize the usage section to include specific features and functionalities relevant to your Book Loan Management System.
-
 
 If you encounter any issues or have feedback, please Contact me on the email mehmodulhaq1040@gmail.com

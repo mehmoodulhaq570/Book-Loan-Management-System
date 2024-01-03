@@ -32,9 +32,9 @@ The Book Loan Management System relies on a Microsoft SQL Server database for ef
    The `BookCopy` table is crucial for tracking individual copies of books and their loan status. Each copy is associated with a unique `copy_id`. Fields in this table include the copy number, book title, current loan status, and borrower information. It facilitates efficient management of book loans and returns.
    
 
-# Book Loan Management System
 
-## Overview
+
+## Front-End
 
 A comprehensive Book Loan Management System designed to streamline book-related operations in libraries or loan systems.
 

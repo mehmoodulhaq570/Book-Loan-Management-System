@@ -79,6 +79,8 @@ Formerly the "Boardwalk Page," this section facilitates borrower management with
 ## Project Video
 
 
+https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/64264b4d-b074-4bca-99f6-97becf5b2602
+
 
 Explore a visual walkthrough of the Book Loan Management System in action.
 

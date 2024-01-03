@@ -36,7 +36,7 @@ The `BookCopy` table is crucial for tracking individual copies of books and thei
 
 To set up and run the Book Loan Management System:
 
-1. Download the project from the GitHub repository: [GitHub Link](https://github.com/your-username/your-repository)
+1. Download the project from the GitHub repository.
 
 2. Extract the contents of the provided ZIP file.
 

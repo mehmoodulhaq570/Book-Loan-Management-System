@@ -11,15 +11,26 @@ The project is organized into the following main components:
 - **Backend:** Contains SQL scripts and queries for creating the database tables and managing data. All SQL files are located in the `Backend` folder.
 
 - **Frontend:** Consists of the Visual Studio Windows Forms application. The forms and associated code files are available in the `Frontend` folder.
-
 ## Database
 
-The database is implemented using Microsoft SQL Server. You can find all the SQL scripts necessary for creating tables and managing data in the `Backend` folder. The primary tables include:
+The Book Loan Management System relies on a Microsoft SQL Server database for efficient storage and retrieval of book-related information. The database is structured to capture key entities in the book loan process. Below are the main tables and their purposes:
 
-- **Author:** Stores information about book authors.
-- **BookCategory:** Manages different categories of books.
-- **BookCopy:** Tracks individual copies of books.
-- ...
+### Author Table
+
+The `Author` table stores information about book authors. Each author is uniquely identified by an `author_id`. The table includes fields for the author's first name, last name, email, contact number, address, date of birth, and nationality.
+
+### BookCategory Table
+
+The `BookCategory` table manages different categories of books. Categories are identified by a unique `category_id`, and the table includes fields for the category name and any additional details.
+
+### Book Table
+
+The `Book` table contains detailed information about individual books. Each book is assigned a unique identifier (`book_id`) and includes data such as the title, author, category, publication date, ISBN, and other relevant details.
+
+### BookCopy Table
+
+The `BookCopy` table is crucial for tracking individual copies of books and their loan status. Each copy is associated with a unique `copy_id`. Fields in this table include the copy number, book title, current loan status, and borrower information. It facilitates efficient management of book loans and returns.
+
 
 ## Getting Started
 

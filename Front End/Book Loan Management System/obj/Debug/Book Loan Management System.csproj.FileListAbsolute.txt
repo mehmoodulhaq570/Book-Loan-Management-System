@@ -1,0 +1,22 @@
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book Loan Management System.csproj.AssemblyReference.cache
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.ownerform.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Properties.Resources.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book Loan Management System.csproj.GenerateResource.cache
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book Loan Management System.csproj.CoreCompileInputs.cache
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\bin\Debug\Book Loan Management System.exe.config
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\bin\Debug\Book Loan Management System.exe
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\bin\Debug\Book Loan Management System.pdb
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book Loan Management System.exe
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book Loan Management System.pdb
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Author_Form.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Add_Authos.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Add_Borrower.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Borrower.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Delete_Authors.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Delete_Borrower.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Fine_Borrower.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Add_Book.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Books.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Delete_Book.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Book_Loan.resources
+D:\Semesters Data\Semster 5\Theory\DataBase\Book Loan Management System\Front End\Book Loan Management System\obj\Debug\Book_Loan_Management_System.Login_Form.resources

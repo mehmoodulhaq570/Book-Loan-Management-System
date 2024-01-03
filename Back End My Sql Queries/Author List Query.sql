@@ -1,0 +1,16 @@
+-- Author List
+INSERT INTO Author_list VALUES
+(1, 1, 'Author'),      -- Mohsin Hamid for 'Moth Smoke'
+(2, 2, 'Author'),      -- Kamila Shamsie for 'Home Fire'
+(3, 3, 'Author'),      -- Mohammed Hanif for 'A Case of Exploding Mangoes'
+(4, 4, 'Author'),      -- Bapsi Sidhwa for 'Ice Candy Man'
+(5, 5, 'Author'),      -- Intizar Hussain for 'Basti'
+(6, 6, 'Author'),      -- Arundhati Roy for 'The God of Small Things'
+(7, 7, 'Author'),      -- Vikram Seth for 'A Suitable Boy'
+(8, 8, 'Author'),      -- Ruskin Bond for 'The Blue Umbrella'
+(9, 9, 'Author'),      -- Arvind Adiga for 'White Tiger'
+(10, 10, 'Author'),    -- Chetan Bhagat for 'Five Point Someone'
+(11, 11, 'Author'),    -- Stephen King for 'The Shining'
+(13, 13, 'Author'),    -- Maya Angelou for 'I Know Why the Caged Bird Sings'
+(14, 14, 'Author'),    -- F. Scott Fitzgerald for 'The Great Gatsby'
+(15, 15, 'Author');    -- Mark Twain for 'The Adventures of Tom Sawyer'

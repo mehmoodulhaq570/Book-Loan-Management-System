@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{692D7E6B-0D81-4119-A03B-C4D6F5EB5E37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Book_Loan_Management_System</RootNamespace>
+    <AssemblyName>Book Loan Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Authos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Authos.Designer.cs">
+      <DependentUpon>Add_Authos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Book.Designer.cs">
+      <DependentUpon>Add_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Borrower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Borrower.Designer.cs">
+      <DependentUpon>Add_Borrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Author_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Author_Form.Designer.cs">
+      <DependentUpon>Author_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Books.Designer.cs">
+      <DependentUpon>Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book_Loan.Designer.cs">
+      <DependentUpon>Book_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Borrower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Borrower.Designer.cs">
+      <DependentUpon>Borrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Authors.Designer.cs">
+      <DependentUpon>Delete_Authors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Book.Designer.cs">
+      <DependentUpon>Delete_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Borrower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Borrower.Designer.cs">
+      <DependentUpon>Delete_Borrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fine_Borrower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fine_Borrower.Designer.cs">
+      <DependentUpon>Fine_Borrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_Form.Designer.cs">
+      <DependentUpon>Owner_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Authos.resx">
+      <DependentUpon>Add_Authos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Book.resx">
+      <DependentUpon>Add_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Borrower.resx">
+      <DependentUpon>Add_Borrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Author_Form.resx">
+      <DependentUpon>Author_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Books.resx">
+      <DependentUpon>Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book_Loan.resx">
+      <DependentUpon>Book_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Borrower.resx">
+      <DependentUpon>Borrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Authors.resx">
+      <DependentUpon>Delete_Authors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Book.resx">
+      <DependentUpon>Delete_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Borrower.resx">
+      <DependentUpon>Delete_Borrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fine_Borrower.resx">
+      <DependentUpon>Fine_Borrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_Form.resx">
+      <DependentUpon>Owner_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

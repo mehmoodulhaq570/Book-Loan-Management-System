@@ -23,6 +23,7 @@ The `Author` table stores information about book authors. Each author is uniquel
 
 The `BookCategory` table manages different categories of books. Categories are identified by a unique `category_id`, and the table includes fields for the category name and any additional details.
 
+
 ### Book Table
 
 The `Book` table contains detailed information about individual books. Each book is assigned a unique identifier (`book_id`) and includes data such as the title, author, category, publication date, ISBN, and other relevant details.
@@ -30,6 +31,51 @@ The `Book` table contains detailed information about individual books. Each book
 ### BookCopy Table
 
 The `BookCopy` table is crucial for tracking individual copies of books and their loan status. Each copy is associated with a unique `copy_id`. Fields in this table include the copy number, book title, current loan status, and borrower information. It facilitates efficient management of book loans and returns.
+
+# Book Loan Management System
+
+## Overview
+
+A comprehensive Book Loan Management System designed to streamline book-related operations in libraries or loan systems.
+
+## Screenshots
+
+### Login Page
+
+![31](https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/553ec990-ddb4-4187-919e-7f1075c75a4c)
+
+The secure and user-friendly login page ensures controlled access to the system.
+
+### Content Page
+
+![32](https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/5d7c2422-ff94-4631-ba89-b64ff2781e37)
+
+The content page provides an organized view, allowing users to quickly navigate and manage book-related data.
+
+### Author Page
+
+![33](https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/cbf2ddbf-56d3-4136-9517-d3326756d4f3)
+
+Effortlessly manage and explore information about book authors on the dedicated Author page.
+
+### Book Page
+
+![34](https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/20614b24-bbf1-4609-8691-3898be14030d)
+
+
+The Book page offers a centralized hub to add, edit, and view details about various books in the system.
+
+### Borrower Page
+
+![35](https://github.com/mehmoodulhaq570/Book-Loan-Management-System/assets/96229333/9a9ae31e-dbeb-460c-b0c5-b318ad7b763c)
+
+Formerly the "Boardwalk Page," this section facilitates borrower management with a user-friendly interface.
+
+## Project Video
+
+[Watch the Project Video](https://www.youtube.com/your_video_link)
+
+Explore a visual walkthrough of the Book Loan Management System in action.
 
 
 ## Getting Started
